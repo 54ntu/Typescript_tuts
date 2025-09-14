@@ -124,3 +124,7 @@ let data:Data<string,number>={
     first:"hello",
     second:1234
 }
+
+
+
+
