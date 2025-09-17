@@ -42,6 +42,8 @@
 // console.log(add(val));
 
 
+
+//************************************************ */
 // arrays in typescript
 let lol: [number, string, boolean] = [1, "santu", true];
 console.log(lol);
@@ -58,3 +60,45 @@ console.log(result)
 let lol3: Array<string> = ["apple", "banana", "mango"]
 
 console.log(lol3);
+
+
+
+/*************************************************** */
+
+
+//objects in typescript
+
+
+// const person: { name: string, age: number, adddress: string } = {
+//     name: "santu",
+//     age: 20,
+//     adddress: "Nepal"
+// }
+
+// console.log(`name: `, person.name)
+// console.log(`   age : ${person.age}`)
+// console.log(`addresss: ${person.adddress}`)
+
+
+
+
+
+interface IPerson {
+    name: string,
+    age: number,
+    address: string
+
+}
+
+
+
+const person: IPerson = {
+    name: "santu",
+    age: 20,
+    address: "Nepal"
+}
+
+
+console.log(`name: `, person.name)
+console.log(`   age : ${person.age}`)
+console.log(`addresss: ${person.address}`)

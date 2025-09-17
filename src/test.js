@@ -32,6 +32,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 // }
 // const val = { num1: 10, num2: 20 }
 // console.log(add(val));
+//************************************************ */
 // arrays in typescript
 var lol = [1, "santu", true];
 console.log(lol);
@@ -41,3 +42,11 @@ var result = __spreadArray(__spreadArray([], lol1, true), lol2, true);
 console.log(result);
 var lol3 = ["apple", "banana", "mango"];
 console.log(lol3);
+var person = {
+    name: "santu",
+    age: 20,
+    address: "Nepal"
+};
+console.log("name: ", person.name);
+console.log("   age : ".concat(person.age));
+console.log("addresss: ".concat(person.address));
